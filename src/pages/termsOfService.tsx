@@ -32,7 +32,7 @@ export default function TermsOfService() {
 
               <h2>2. Use of Our Services</h2>
               <br />
-              <ul>
+              <ul className="list-disc pl-5">
                 <li>
                   You must be at least 18 years old or have parental consent.
                 </li>

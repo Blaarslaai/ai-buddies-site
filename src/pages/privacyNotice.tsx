@@ -32,7 +32,7 @@ export default function PrivacyNotice() {
 
               <h2>2. How We Use Your Information</h2>
               <br />
-              <ul>
+              <ul className="list-disc pl-5">
                 <li>To process orders and provide support.</li>
                 <li>For marketing (only with your consent).</li>
                 <li>To improve our services and website.</li>

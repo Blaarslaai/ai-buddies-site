@@ -22,7 +22,7 @@ export default function RefundPolicy() {
 
               <h2>1. Non-Refundable Items</h2>
               <br />
-              <ul>
+              <ul className="list-disc pl-5">
                 <li>Subscriptions</li>
                 <li>Customized or digital products.</li>
                 <li>Gift cards.</li>
