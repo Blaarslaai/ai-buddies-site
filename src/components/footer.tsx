@@ -3,17 +3,35 @@ import { Link } from "react-router";
 export default function Footer() {
   return (
     <footer className="footer footer-center bg-base-300 text-base-content rounded p-10">
-      <nav className="grid grid-flow-col gap-4">
-        <Link className="link link-hover" to="/aboutUs">
-          About us
-        </Link>
-        <Link className="link link-hover" to="/contactUs">
-          Contact
-        </Link>
-        <Link className="link link-hover" to="/jobs">
-          Careers
-        </Link>
-      </nav>
+      <div className="flex flex-col">
+        <div className="flex-1">
+          <nav className="grid grid-flow-col gap-4">
+            <Link className="link link-hover" to="/aboutUs">
+              About us
+            </Link>
+            <Link className="link link-hover" to="/contactUs">
+              Contact
+            </Link>
+            <Link className="link link-hover" to="/jobs">
+              Careers
+            </Link>
+          </nav>
+        </div>
+        <hr />
+        <div className="flex-1">
+          <nav className="grid grid-flow-col gap-4">
+            <Link className="link link-hover" to="/termsOfService">
+              Terms of Service
+            </Link>
+            <Link className="link link-hover" to="/privacyNotice">
+              Privacy Notice
+            </Link>
+            <Link className="link link-hover" to="/refundPolicy">
+              Refund Policy
+            </Link>
+          </nav>
+        </div>
+      </div>
       <nav>
         <div className="flex justify-center gap-4">
           <a href="https://www.facebook.com/astralcomputersza" target="_blank">

@@ -7,6 +7,9 @@ import AboutUs from "./pages/aboutUs.tsx";
 import ContactUs from "./pages/contactUs.tsx";
 import Jobs from "./pages/jobs.tsx";
 import ThankYou from "./pages/thankYou.tsx";
+import TermsOfService from "./pages/termsOfService.tsx";
+import PrivacyNotice from "./pages/privacyNotice.tsx";
+import RefundPolicy from "./pages/refundPolicy.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -17,6 +20,9 @@ createRoot(document.getElementById("root")!).render(
         <Route element={<ContactUs />} path="/contactUs" />
         <Route element={<Jobs />} path="/jobs" />
         <Route element={<ThankYou />} path="/thankYou" />
+        <Route element={<TermsOfService />} path="/termsOfService" />
+        <Route element={<PrivacyNotice />} path="/privacyNotice" />
+        <Route element={<RefundPolicy />} path="/refundPolicy" />
       </Routes>
     </ReactRouter>
   </StrictMode>
