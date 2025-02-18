@@ -12,13 +12,16 @@ export default function RefundPolicy() {
             <div className="text-center lg:text-left">
               <h1 className="text-5xl font-bold">Refund Policy</h1>
               <p className="text-lg">
-                <strong className="pl-5">Astral Computers Refund Policy</strong>
+                <strong>Astral Computers Refund Policy</strong>
               </p>
               <p>
                 <strong>Last Updated: 2025/02/18</strong>
               </p>
 
+              <br />
+
               <h2>1. Non-Refundable Items</h2>
+              <br />
               <ul>
                 <li>Subscriptions</li>
                 <li>Customized or digital products.</li>
